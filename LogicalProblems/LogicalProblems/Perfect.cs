@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProblems
 {
-    internal class Perfect
+    public class Perfect
     {
         public void perfectNumber()
         {

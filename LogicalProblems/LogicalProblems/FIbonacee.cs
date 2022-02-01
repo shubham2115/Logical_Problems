@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProblems
 {
-    internal class FIbonacee
+    public class FIbonacee
     {
         public void Series()
         {
