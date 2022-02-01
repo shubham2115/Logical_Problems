@@ -5,7 +5,8 @@ Console.WriteLine("1.Fibonacee series\n"+
                    "2.Perfect Number\n"+
                    "3.Prime Number\n"+
                    "4.Coupan number\n"+
-                   "5.Reverse Number"
+                   "5.Reverse Number\n"+
+                   "6.Check day for date"
                    );
 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -30,6 +31,10 @@ switch (choice)
     case 5:
         ReverseNumber reverseNumber = new ReverseNumber();
         reverseNumber.reverseNmuber();
+        break;
+    case 6:
+        DayForDate dayForDate = new DayForDate();
+        dayForDate.checkDayForADate();
         break;
     
         
