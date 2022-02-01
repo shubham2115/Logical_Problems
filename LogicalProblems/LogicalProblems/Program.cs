@@ -7,7 +7,8 @@ Console.WriteLine("1.Fibonacee series\n"+
                    "4.Coupan number\n"+
                    "5.Reverse Number\n"+
                    "6.Check day for date\n"+
-                   "7.Temprature conversion"
+                   "7.Temprature conversion\n"+
+                   "8.Sqrt newtons method"
                    );
 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -40,6 +41,10 @@ switch (choice)
     case 7:
         TempratureConversion tempratureConversion = new TempratureConversion();
         tempratureConversion.temperatureConversion();
+        break;
+    case 8:
+        SqrtNewtonsMethod sqrtNewtonsMethod = new SqrtNewtonsMethod();
+        sqrtNewtonsMethod.sqrtNewtonsMethod();
         break;
     
         
