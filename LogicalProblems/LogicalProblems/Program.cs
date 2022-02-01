@@ -3,7 +3,8 @@
 using LogicalProblems;
 Console.WriteLine("1.Fibonacee series\n"+
                    "2.Perfect Number\n"+
-                   "3.Prime Number");
+                   "3.Prime Number\n"+
+                   "4.Coupan number");
 int choice = Convert.ToInt32(Console.ReadLine());
 
 switch (choice)
@@ -20,6 +21,11 @@ switch (choice)
         prime prime = new prime();
         prime.primeNumber();
         break;
+    case 4:
+        coupanNumber coupanNum = new coupanNumber();
+        coupanNum.coupan();
+        break;
+        
     default:
         Console.WriteLine("Enter correct choice");
         break;
