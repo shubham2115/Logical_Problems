@@ -8,7 +8,8 @@ Console.WriteLine("1.Fibonacee series\n"+
                    "5.Reverse Number\n"+
                    "6.Check day for date\n"+
                    "7.Temprature conversion\n"+
-                   "8.Sqrt newtons method"
+                   "8.Sqrt newtons method\n"+
+                   "9.Monthly payment"
                    );
 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -45,6 +46,10 @@ switch (choice)
     case 8:
         SqrtNewtonsMethod sqrtNewtonsMethod = new SqrtNewtonsMethod();
         sqrtNewtonsMethod.sqrtNewtonsMethod();
+        break;
+    case 9:
+        MonthlyPayment monthlyPayment = new MonthlyPayment();
+        monthlyPayment.monthlyPayment();
         break;
     
         
