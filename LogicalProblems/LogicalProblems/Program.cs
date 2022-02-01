@@ -4,7 +4,9 @@ using LogicalProblems;
 Console.WriteLine("1.Fibonacee series\n"+
                    "2.Perfect Number\n"+
                    "3.Prime Number\n"+
-                   "4.Coupan number");
+                   "4.Coupan number\n"+
+                   "5.Reverse Number"
+                   );
 int choice = Convert.ToInt32(Console.ReadLine());
 
 switch (choice)
@@ -25,6 +27,11 @@ switch (choice)
         coupanNumber coupanNum = new coupanNumber();
         coupanNum.coupan();
         break;
+    case 5:
+        ReverseNumber reverseNumber = new ReverseNumber();
+        reverseNumber.reverseNmuber();
+        break;
+    
         
     default:
         Console.WriteLine("Enter correct choice");

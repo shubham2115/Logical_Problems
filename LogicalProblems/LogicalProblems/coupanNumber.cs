@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProblems
 {
-    internal class coupanNumber
+    public class coupanNumber
     {
         public void coupan()
         {

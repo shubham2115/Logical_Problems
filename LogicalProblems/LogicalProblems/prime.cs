@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProblems
 {
-    internal class prime
+    public class prime
     {
         public void primeNumber()
         {
